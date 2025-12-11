@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to bottom right, #2eccfc, #8545fa)
+}
+
+#containment-wrapper {
+    position: relative;
+    height: 400px;
+    border: 2px dashed #c1fc39;
+    border-radius: 10px;
+    background: #fcfc7f;
+}
+
+#puppy-pic {
+    cursor: grab;
+}
+
+#puppy-pic:active {
+    cursor: grabbing;
+}
+
+.score-box {
+    background: #fab624;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+}
