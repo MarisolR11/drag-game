@@ -26,15 +26,15 @@ $(function () {
         $("#score-progress").css("width", percent + "%");
         // Status message
         if (score < 0) {
-            $("#status-message").text("How in the world did you do this!");
-        } else if (score < 300) {
-            $("#status-message").text("Doge is warming up...");
-        } else if (score < 600) {
-            $("#status-message").text("Wow! Doge is gaining power!");
-        } else if (score < 900) {
-            $("#status-message").text("Much skill. Very drag. Wow.");
+            $("#status-message").text("You can do this!");
+        } else if (score < 250) {
+            $("#status-message").text("Puppy is warming up...");
+        } else if (score < 500) {
+            $("#status-message").text("Wow! Puppy is gaining power!");
+        } else if (score < 800) {
+            $("#status-message").text("Amazing. Look At You Go. Wow.");
         } else {
-            $("#status-message").text("MAXIMUM WOW ACHIEVED YOU HAVE WON YOU ARE THE BEST");
+            $("#status-message").text("AWESOME WORK YOU ACHIEVED THE HIGHEST SCORE YOU WIN");
         }
     }
 });
